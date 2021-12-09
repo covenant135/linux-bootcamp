@@ -15,3 +15,14 @@ Quickstart: Create a Linux VM
 
 Quickstart for Bash in Azure Cloud Shell
 * https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart
+
+additonal resource
+https://azure.microsoft.com/en-in/blog/vm-image-blog-post/
+# Create a resource group
+
+Using Azure CLI
+
+
+
+query id
+/subscriptions/5c9d6556-ccb0-4cde-a43b-beff2a417633/resourceGroups/olalab2/providers/Microsoft.Compute/virtualMachines/olawebster
