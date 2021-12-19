@@ -99,6 +99,8 @@ I lauched both a linux instance and a windows intance. Unable to connect with th
 
 aws ec2 run-instances --image-id ami-xxxxxxxx  --instance-type t2.micro --key-name MyKeyPair --security-group-ids sg-903004f8 --subnet-id subnet-6e7f829e
 
+the ami used was ami-0ed9277fb7eb570c9
+
 # Connecting to an instance
 
 There are several ways of conencting to the instance. This primary depends on the way kind of image used in the creation of the instance. For windows instance, we can use RDP or EC2 Instance connect. More so, if you have a linux instance, it can be connected to via SSH, EC2 instance connect.
